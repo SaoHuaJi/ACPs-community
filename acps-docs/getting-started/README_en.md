@@ -12,7 +12,7 @@ See [`acps-infra/README.md`](../../acps-infra/README.md) for an overview of the 
 
 | Goal | Suitable For | Detailed Documentation |
 | --- | --- | --- |
-| Local development and testing | Developers modifying services, SDKs, CLIs, and demo code | [Development and Testing Overview](../development/development-testing-overview.md) |
+| Local development and testing | Developers modifying services, SDKs, CLIs, and demo code | [Development and Testing Overview](../development/development-testing-overview_en.md) |
 | **Developing Agents (AIP)** | Writing Leader / Partner business logic | [AIP Development Tutorial](../tutorials/agent-development_en.md) |
 | **Agent Observability (AMP)** | Adding AMP logs in Agents and querying them | [AMP Observability Tutorial](../tutorials/amp-agent-observability_en.md) |
 | **Manual Deployment (Basic Process)** | Those who want to understand exactly what deployment does, or whose target environment cannot use Docker / whose operating system is not in the support matrix | [Manual Deployment from Application Thin Package](../tutorials/manual-deploy-from-app-thin-package_en.md) |
@@ -63,7 +63,7 @@ just test e2e
 just qa
 ```
 
-The details of these commands vary slightly across projects, but the overall model is consistent: `infra -> prep -> dev -> test -> qa`. See [Development and Testing Overview for a complete explanation](../development/development-testing-overview.md).
+The details of these commands vary slightly across projects, but the overall model is consistent: `infra -> prep -> dev -> test -> qa`. See [Development and Testing Overview for a complete explanation](../development/development-testing-overview_en.md).
 
 ## 3. Deploy Using the Installation Package
 The product deployment path is to assemble the installation package and then run Ansible on the control node:

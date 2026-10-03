@@ -486,7 +486,7 @@ If the files are growing, the "head" is already working.
 
 ### 4.2 Querying Monitor with acps-cli
 
-Prerequisite: you can reach a deployed monitor-server, and the CLI is configured with the address and authentication (OIDC or local-auth; see `acps-cli monitor` in the [CLI reference](../references/cli-reference.md)).
+Prerequisite: you can reach a deployed monitor-server, and the CLI is configured with the address and authentication (OIDC or local-auth; see `acps-cli monitor` in the [CLI reference](../references/cli-reference_en.md)).
 
 You can use **Beijing time (UTC+8)** for the time window, written as ISO 8601 with `+08:00`; the CLI passes it to Monitor unchanged and the server parses it as an offset-aware time. Replace the range with a window around when you actually emitted the logs (for the `events` / `records` of access / message / system / audit, you generally need `--start` / `--end` unless a full request is supplied):
 
@@ -551,6 +551,6 @@ So: when you write your own agent, what you align with is **the same kind of Emi
 
 - How to write AIP business logic: [Agent quick development guide](./agent-development_en.md)  
 - SDK / protocol details: `acps_sdk/amp/` in `acps-sdk`, plus the AMP-related specifications in `acps-specs`  
-- CLI query parameters: [CLI reference · monitor](../references/cli-reference.md)  
+- CLI query parameters: [CLI reference · monitor](../references/cli-reference_en.md)  
 - How to install and operate the platform: [Ansible deployment](./install-package-ansible-deploy_en.md), [Day-2 operations](./install-package-day2-ops_en.md)  
 - Reference implementation assembly: AMP initialization and call sites in `demo-partner/partners/generic_runner.py` and `demo-leader`  

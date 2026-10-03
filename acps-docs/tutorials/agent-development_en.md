@@ -6,7 +6,7 @@
 
 This document is intended for developers who want to develop Leader / Partner agents based on ACPs. It only covers the AIP interaction model and code structure, and does not repeat the content on setting up the development environment, packaging, or deployment.
 
-For environment preparation, please see [Quick Start](../getting-started/README.md) and [Development and Testing Overview](../development/development-testing-overview.md).
+For environment preparation, please see [Quick Start](../getting-started/README.md) and [Development and Testing Overview](../development/development-testing-overview_en.md).
 
 ## Table of Contents
 
@@ -482,7 +482,7 @@ For an independent project, testing should focus on:
 - Tasks in terminal states should not be accidentally modified.
 - The structure of `products` and `status.dataItems` should comply with the AIP model.
 
-If you modify demo code, prioritize running the `demo-partner` unit and integration tests for the Partner state machine; for Leader orchestration, planning, completion gates, or aggregation logic, prioritize the `demo-leader` unit, API, integration, and e2e tests. For real cross-service integration testing and CLI-level end-to-end validation, refer back to the testing-layer description in [Development and Testing Overview](../development/development-testing-overview.md).
+If you modify demo code, prioritize running the `demo-partner` unit and integration tests for the Partner state machine; for Leader orchestration, planning, completion gates, or aggregation logic, prioritize the `demo-leader` unit, API, integration, and e2e tests. For real cross-service integration testing and CLI-level end-to-end validation, refer back to the testing-layer description in [Development and Testing Overview](../development/development-testing-overview_en.md).
 
 ## 1.9. What to Read Next
 
@@ -534,7 +534,7 @@ It is recommended to use `acps-cli` directly to complete trusted registration. F
 ```text
 Prepare acps-cli configuration -> Log in to Registry -> Save ACS draft -> Submit for review -> Wait for approval and obtain AIC -> Obtain EAB -> Apply for certificate from CA
 
-> For detailed acps-cli usage instructions, refer to [references/cli-reference.md](../references/cli-reference.md).
+> For detailed acps-cli usage instructions, refer to [references/cli-reference_en.md](../references/cli-reference_en.md).
 
 ### 2.2.1. Complete Trusted Registration Steps
 

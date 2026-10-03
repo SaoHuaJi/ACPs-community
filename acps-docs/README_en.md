@@ -55,11 +55,11 @@ acps-docs/
 
 ### 2 CLI Documentation
 
-- CLI reference: [references/cli-reference.md](references/cli-reference.md)
+- CLI reference: [references/cli-reference_en.md](references/cli-reference_en.md)
 
 ### 3 Development and Testing Documentation
 
-- ACPs development and testing overview: [development/development-testing-overview.md](development/development-testing-overview.md)
+- ACPs development and testing overview: [development/development-testing-overview_en.md](development/development-testing-overview_en.md)
 
 ### 4 SDK Documentation
 
@@ -77,8 +77,8 @@ acps-docs/
 2. Developing Leader / Partner → [tutorials/agent-development_en.md](tutorials/agent-development_en.md)
 3. Agent-side AMP observability → [tutorials/amp-agent-observability_en.md](tutorials/amp-agent-observability_en.md)
 4. OIDC Web / Device → [oidc-web-app-manual-verification_en.md](tutorials/oidc-web-app-manual-verification_en.md), [oidc-acps-cli-device-login_en.md](tutorials/oidc-acps-cli-device-login_en.md)
-5. CLI → [references/cli-reference.md](references/cli-reference.md)
-6. Development and testing → [development/development-testing-overview.md](development/development-testing-overview.md)
+5. CLI → [references/cli-reference_en.md](references/cli-reference_en.md)
+6. Development and testing → [development/development-testing-overview_en.md](development/development-testing-overview_en.md)
 7. **Deployment baseline procedure** → [manual-deploy-from-app-thin-package_en.md](tutorials/manual-deploy-from-app-thin-package_en.md) (install dependencies / lay down configuration / migrate / issue certificates / start processes / probe liveness; the following entries all automate this procedure)
 8. Application release package (pre-assemble dependencies into a wheelhouse for offline installation) → [app-release-package-build_en.md](tutorials/app-release-package-build_en.md)
 9. **image**: image package → [docker-image-packages-from-app-release_en.md](tutorials/docker-image-packages-from-app-release_en.md) → assemble [install-package-build_en.md](tutorials/install-package-build_en.md) §1

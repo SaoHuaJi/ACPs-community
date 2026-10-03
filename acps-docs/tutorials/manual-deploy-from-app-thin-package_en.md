@@ -761,7 +761,7 @@ One process brings up several uvicorns according to the number of directories un
 | Type | `cli-tool`, not a resident service; no port and no health check |
 | Entry point | `venv/bin/acps-cli` |
 
-Install it per §4.1–4.6 and you are done. It is not a resident service, so it needs neither a database migration nor any process supervision configured for it (a systemd unit or the like) — just type the command when you need it. It takes on two things: issuing certificates (§7.2) and day-to-day operations work. Configuration is in `acps-cli.toml`; for the commands see the [CLI reference](../references/cli-reference.md).
+Install it per §4.1–4.6 and you are done. It is not a resident service, so it needs neither a database migration nor any process supervision configured for it (a systemd unit or the like) — just type the command when you need it. It takes on two things: issuing certificates (§7.2) and day-to-day operations work. Configuration is in `acps-cli.toml`; for the commands see the [CLI reference](../references/cli-reference_en.md).
 
 ---
 
