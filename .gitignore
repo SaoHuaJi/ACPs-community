@@ -62,3 +62,6 @@ coverage.xml
 # local settings
 acps-design
 .repos-makeup
+
+# temporary scratch space used while assembling multi-part translations
+.i18n-tmp/

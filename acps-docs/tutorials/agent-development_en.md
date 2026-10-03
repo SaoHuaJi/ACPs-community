@@ -592,7 +592,7 @@ A Leader agent can find Partner agents suitable for a task based on capability r
 
 ## 3.1. Obtaining the Discovery Service Interface
 
-The Discovery Service (`discovery-server`) is accessed through a RESTful interface. The API definition can be found in [Agent Discovery (Discovery) API](../../acps-specs/06-ACPs-spec-ADP/ACPs-spec-ADP.md#4-智能体发现discoveryapi).
+The Discovery Service (`discovery-server`) is accessed through a RESTful interface. The API definition can be found in [Agent Discovery (Discovery) API](../../acps-specs/06-ACPs-spec-ADP/ACPs-spec-ADP_en.md#4-agent-discovery-api).
 
 The `discovery-server` implementation provides online documentation. The default service port is `9005`, and a common access URL is:
 `http://your-discovery-server:9005/docs#/`

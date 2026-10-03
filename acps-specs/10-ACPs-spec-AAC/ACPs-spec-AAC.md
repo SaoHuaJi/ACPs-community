@@ -1,5 +1,7 @@
 [首页](../README.md)
 
+**[English](ACPs-spec-AAC_en.md) | [中文](ACPs-spec-AAC.md)**
+
 AAC：智能体访问控制（ACPs-spec-AAC-v02.02）
 
 # 1. 文档定义

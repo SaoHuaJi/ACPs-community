@@ -1,5 +1,7 @@
 [首页](../README.md)
 
+**[English](ACPs-spec-AMP_en.md) | [中文](ACPs-spec-AMP.md)**
+
 AMP：智能体监控协议（ACPs-spec-AMP-v02.02）
 
 # 1. 文档定义
