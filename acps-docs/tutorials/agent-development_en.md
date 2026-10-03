@@ -369,7 +369,8 @@ The general development path can be understood as:
 Minimal Direct RPC -> Multi-command state machine -> Persistent task table -> mTLS -> Multi-Partner orchestration -> Discovery / Group / UI
 ```
 
-1.6. What demo-leader / demo-partner Are Suitable for
+## 1.6. What demo-leader / demo-partner Are Suitable for
+
 `demo-leader` and `demo-partner` are not minimal AIP frameworks. They are complex examples in ACPs designed for demonstrations and end-to-end validation. Their characteristics include:
 
 - They rely on LLMs for intent recognition, planning, analysis, completion gating, and result aggregation.
@@ -382,7 +383,8 @@ Minimal Direct RPC -> Multi-command state machine -> Persistent task table -> mT
 
 If your agent is rule-based, tool-based, retrieval-based, or implements a deterministic workflow, you should generally start with the minimal Leader / Partner structure described in this document and introduce SDK capabilities as needed, rather than copying a large amount of LLM orchestration code from the demo.
 
-1.6.1. Reference demo-partner
+### 1.6.1. Reference demo-partner
+
 When you need to implement "multiple configurable Partner Agents", you can refer to demo-partner:
 
 ```text
@@ -461,7 +463,7 @@ Relevant entry points:
 - demo Leader：`demo-leader/leader/assistant/core/group_manager.py`、`demo-leader/leader/assistant/core/group_executor.py`
 - demo Partner：`demo-partner/partners/group_handler.py`
 
-# 1.8. How to Validate During Development
+## 1.8. How to Validate During Development
 
 This document does not repeat the environment setup process, but after completing code changes, you should at least run tests according to the scope of the changes:
 
@@ -533,6 +535,7 @@ It is recommended to use `acps-cli` directly to complete trusted registration. F
 
 ```text
 Prepare acps-cli configuration -> Log in to Registry -> Save ACS draft -> Submit for review -> Wait for approval and obtain AIC -> Obtain EAB -> Apply for certificate from CA
+```
 
 > For detailed acps-cli usage instructions, refer to [references/cli-reference_en.md](../references/cli-reference_en.md).
 
@@ -576,7 +579,8 @@ acps-cli admin registry ...
 
 Regular developers only need to know that after submitting with `agent submit`, they must wait for an administrator to approve the request. Only after obtaining the AIC and EAB can they apply for a certificate.
 
-2.2.2. The Most Common Minimal Command Sequence
+### 2.2.2. The Most Common Minimal Command Sequence
+
 If you want to condense the process of "registering a regular agent and obtaining a certificate" into a minimal checklist, it is generally:
 
 ```bash

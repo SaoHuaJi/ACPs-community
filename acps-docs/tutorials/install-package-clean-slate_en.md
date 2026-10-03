@@ -76,7 +76,7 @@ Remote Linux default paths are used as the example; for same-machine acceptance 
 
 Under the host path the installer can sync passwords for existing PG roles, but that **cannot replace** the mandatory wipe of data directories required by this tutorial.
 
-### Half-Cleared, Half-Kept (has previously caused acceptance failures)
+#### Half-Cleared, Half-Kept (Has Previously Caused Acceptance Failures)
 
 - Deleted only the runtime, leaving `acps-*.service`  
 - Deleted `/var/lib/redis|rabbitmq` without recreating the empty directories  
