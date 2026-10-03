@@ -1,5 +1,7 @@
 [首页](../README.md)
 
+**[English](agent-development_en.md) | [中文](agent-development.md)**
+
 # ACPs 智能体快速开发指南
 
 本文面向想要基于 ACPs 开发 Leader / Partner 智能体的开发者。它只讲 AIP 交互模型和代码结构，不重复开发环境搭建、打包、部署内容。

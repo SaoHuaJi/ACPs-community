@@ -1,5 +1,7 @@
 [首页](../README.md)
 
+**[English](docker-image-packages-from-app-release_en.md) | [中文](docker-image-packages-from-app-release.md)**
+
 # 从应用发布包构建 Docker 镜像包
 
 跟着这篇教程，你可以把上一阶段打好的应用发布包，再变成一组可直接 `docker load` 的独立 `.image.tar.gz`。这些镜像包是后面组装安装包的输入。

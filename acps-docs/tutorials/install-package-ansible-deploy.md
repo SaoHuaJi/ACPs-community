@@ -1,5 +1,7 @@
 [首页](../README.md)
 
+**[English](install-package-ansible-deploy_en.md) | [中文](install-package-ansible-deploy.md)**
+
 # 用安装包部署 ACPs（Ansible：image / host）
 
 这篇教程面向：**会基本的 Linux 操作，但没接触过 Ansible**。你已经拿到一份安装包（`acps-image-install-*.tar` 或 `acps-host-install-*.tar`），要**从零装全套 ACPs**（含 Keycloak OIDC）。

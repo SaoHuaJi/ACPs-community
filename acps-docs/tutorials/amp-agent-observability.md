@@ -1,5 +1,7 @@
 [首页](../README.md)
 
+**[English](amp-agent-observability_en.md) | [中文](amp-agent-observability.md)**
+
 # 在 Agent 中接入 AMP 可观测性
 
 这篇教程写给 **Agent 开发者**：平台侧的 AMP（转发、入库、查询服务）已经由运维装好时，你要做的是两件事——

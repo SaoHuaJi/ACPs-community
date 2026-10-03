@@ -1,5 +1,7 @@
 [首页](../README.md)
 
+**[English](install-package-build_en.md) | [中文](install-package-build.md)**
+
 # 组装安装包（image-mode / host-mode）
 
 跟着这篇教程，用同一入口 `build-install-package.sh` 打出可解压部署的安装包。先选模式，再按对应章节操作。

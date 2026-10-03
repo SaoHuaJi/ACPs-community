@@ -1,5 +1,7 @@
 [首页](../README.md)
 
+**[English](manual-deploy-from-app-thin-package_en.md) | [中文](manual-deploy-from-app-thin-package.md)**
+
 # 从应用薄包手工部署
 
 这篇教程讲的是**部署一套 ACPs 到底要做哪些事**：把应用装进一个 Python 环境、铺好配置、迁移数据库、签发证书、按正确顺序把进程拉起来、探活。全程手工命令，不依赖 Docker，不依赖 Ansible，也不绑定某个操作系统。

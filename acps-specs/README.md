@@ -33,15 +33,3 @@
 (9)[智能体监控协议（Agent Monitoring Protocol，AMP）规范](09-ACPs-spec-AMP/ACPs-spec-AMP.md)
 
 (10)[智能体访问控制（Agent Access Control，AAC）规范](10-ACPs-spec-AAC/ACPs-spec-AAC.md)
-
-## 3. 多语言文档约定
-
-本目录的每个规范文档采用「中文原文 + 同目录英文版」的方式维护，英文版文件名在中文文件名后加 `_en` 后缀，例如 `ACPs-spec-AIC.md` 与 `ACPs-spec-AIC_en.md`。
-
-两个版本均在文档顶部提供语言切换入口（紧跟在 `[首页](../README.md)` 之后）：
-
-```markdown
-**[English](ACPs-spec-AIC_en.md) | [中文](ACPs-spec-AIC.md)**
-```
-
-翻译约定：图片路径与代码块保持原样（英文版与中文版位于同一目录，共用同一批图片）；指向本目录其他规范的相对链接改为对应的 `_en` 版本，因此英文版之间始终互相跳转而不会跳到中文版；正文中引用的章节锚点同步改为英文标题对应的锚点。本目录 11 个文档均已提供英文版（`README_en.md` 及 `01`～`10` 各规范目录下的 `*_en.md`），覆盖 1～10 全部规范。

@@ -1,5 +1,7 @@
 [Home](../README.md)
 
+**[English](agent-development_en.md) | [中文](agent-development.md)**
+
 # ACPs Agent Quick Development Guide
 
 This document is intended for developers who want to develop Leader / Partner agents based on ACPs. It only covers the AIP interaction model and code structure, and does not repeat the content on setting up the development environment, packaging, or deployment.
@@ -18,7 +20,7 @@ For environment preparation, please see [Quick Start](../getting-started/README.
 
 AIP is Agent Interaction Protocol, used to describe how agents dispatch tasks, return status, exchange content, and complete collaboration.  
 
-> For the complete definition of the AIP protocol, please see [ACPs AIP Protocol Specification](../../acps-specs/07-ACPs-spec-AIP/ACPs-spec-AIP.md)。
+> For the complete definition of the AIP protocol, please see [ACPs AIP Protocol Specification](../../acps-specs/07-ACPs-spec-AIP/ACPs-spec-AIP_en.md).
 
 The focus of this chapter is independent development: first use `acps-sdk` to write a minimal Partner and a minimal Leader, and understand the AIP task state machine;  
 then use `demo-partner` / `demo-leader` as references for more complex examples.  
@@ -178,15 +180,15 @@ async def on_start(command: TaskCommand, task: TaskResult | None) -> TaskResult:
         task = TaskManager.create_task(
             command,
             initial_state=TaskState.AwaitingInput,
-            data_items=[TextDataItem(text="请提供要处理的文本。")],
+            data_items=[TextDataItem(text="Please provide the text to be processed.")],
         )
         return _with_sender(task)
 
-    if "天气" in user_input:
+    if "weather" in user_input:
         task = TaskManager.create_task(
             command,
             initial_state=TaskState.Rejected,
-            data_items=[TextDataItem(text="这个示例 Partner 不提供天气查询能力。")],
+            data_items=[TextDataItem(text="This example Partner does not offer weather lookup.")],
         )
         return _with_sender(task)
 
@@ -200,7 +202,7 @@ async def on_start(command: TaskCommand, task: TaskResult | None) -> TaskResult:
             Product(
                 id=f"product-{task.taskId}",
                 name="echo",
-                dataItems=[TextDataItem(text=f"Partner 已处理：{user_input}")],
+                dataItems=[TextDataItem(text=f"Partner processed: {user_input}")],
             )
         ],
     )
@@ -220,7 +222,7 @@ async def on_continue(command: TaskCommand, task: TaskResult) -> TaskResult:
             Product(
                 id=f"product-{task.taskId}",
                 name="echo",
-                dataItems=[TextDataItem(text=f"Partner 收到补充信息：{user_input}")],
+                dataItems=[TextDataItem(text=f"Partner received additional input: {user_input}")],
             )
         ],
     )
@@ -299,7 +301,7 @@ async def main() -> None:
         task = await client.start_task(
             session_id=session_id,
             task_id=task_id,
-            user_input="请处理这段文本",
+            user_input="Please process this text",
         )
         print(f"start -> {task.status.state}")
 
@@ -309,17 +311,17 @@ async def main() -> None:
             print(f"get -> {task.status.state}")
 
         if task.status.state == TaskState.AwaitingInput:
-            print("Partner 需要补充信息：")
+            print("The Partner needs more information:")
             _print_data_items(task.status.dataItems)
             task = await client.continue_task(
                 task_id=task_id,
                 session_id=session_id,
-                user_input="这是 Leader 补充的信息",
+                user_input="This is the information supplied by the Leader",
             )
             print(f"continue -> {task.status.state}")
 
         if task.status.state == TaskState.AwaitingCompletion:
-            print("Partner 产出物：")
+            print("Partner products:")
             _print_products(task)
             task = await client.complete_task(
                 task_id=task_id,
@@ -328,7 +330,7 @@ async def main() -> None:
             print(f"complete -> {task.status.state}")
 
         if task.status.state in (TaskState.Failed, TaskState.Rejected, TaskState.Canceled):
-            print("任务未完成：")
+            print("The task was not completed:")
             _print_data_items(task.status.dataItems)
 
     finally:
@@ -484,7 +486,7 @@ If you modify demo code, prioritize running the `demo-partner` unit and integrat
 
 ## 1.9. What to Read Next
 
-- For detailed AIP SDK references, read [tutorials/aip-sdk-tutorial.md](./aip-sdk-tutorial.md).
+- For detailed AIP SDK references, read [tutorials/aip-sdk-tutorial.md](./aip-sdk-tutorial_en.md).
 - To understand AIP data objects, read [acps-sdk/acps_sdk/aip/aip_base_model.py](../../acps-sdk/acps_sdk/aip/aip_base_model.py).
 - To understand minimal Partner RPC bindings, read [acps-sdk/acps_sdk/aip/aip_rpc_server.py](../../acps-sdk/acps_sdk/aip/aip_rpc_server.py).
 - To understand minimal Leader RPC calls, read [acps-sdk/acps_sdk/aip/aip_rpc_client.py](../../acps-sdk/acps_sdk/aip/aip_rpc_client.py).
@@ -502,12 +504,12 @@ While reading this chapter, you can refer to the following resources for details
 
 | Keyword | Full Name | Abbreviation | Reference Document | Service / SDK Description |
 |----|----|----|----|----|
-| Agent Identity Code | Agent Identity Code | AIC | [ACPs-spec-AIC.md](../../acps-specs/02-ACPs-spec-AIC/ACPs-spec-AIC.md) | [acps-sdk:aic](../../acps-sdk/acps_sdk/aic/README.md) |
-| Agent Capability Specification | Agent Capability Specification | ACS | [ACPs-spec-ACS.md](../../acps-specs/03-ACPs-spec-ACS/ACPs-spec-ACS.md) | [acps-sdk:acs](../../acps-sdk/acps_sdk/acs/README.md) |
-| Agent Trusted Registration | Agent Trusted Registration | ATR | [ACPs-spec-ATR.md](../../acps-specs/04-ACPs-spec-ATR/ACPs-spec-ATR.md) | [registry-server](../../registry-server/README.md) |
-| Certificate of Agent Identity | Certificate of Agent Identity | CAI | [ACPs-spec-ATR.md](../../acps-specs/04-ACPs-spec-ATR/ACPs-spec-ATR.md) | [ca-server](../../ca-server/README.md) |
+| Agent Identity Code | Agent Identity Code | AIC | [ACPs-spec-AIC.md](../../acps-specs/02-ACPs-spec-AIC/ACPs-spec-AIC_en.md) | [acps-sdk:aic](../../acps-sdk/acps_sdk/aic/README.md) |
+| Agent Capability Specification | Agent Capability Specification | ACS | [ACPs-spec-ACS.md](../../acps-specs/03-ACPs-spec-ACS/ACPs-spec-ACS_en.md) | [acps-sdk:acs](../../acps-sdk/acps_sdk/acs/README.md) |
+| Agent Trusted Registration | Agent Trusted Registration | ATR | [ACPs-spec-ATR.md](../../acps-specs/04-ACPs-spec-ATR/ACPs-spec-ATR_en.md) | [registry-server](../../registry-server/README.md) |
+| Certificate of Agent Identity | Certificate of Agent Identity | CAI | [ACPs-spec-ATR.md](../../acps-specs/04-ACPs-spec-ATR/ACPs-spec-ATR_en.md) | [ca-server](../../ca-server/README.md) |
 
-> Note: The Discovery Service (`discovery-server`) automatically obtains agent ACS information from the Registration Service (`registry-server`). For details about this process, refer to [ACPs-spec-DSP.md](../../acps-specs/08-ACPs-spec-DSP/ACPs-spec-DSP.md).
+> Note: The Discovery Service (`discovery-server`) automatically obtains agent ACS information from the Registration Service (`registry-server`). For details about this process, refer to [ACPs-spec-DSP.md](../../acps-specs/08-ACPs-spec-DSP/ACPs-spec-DSP_en.md).
 
 ## 2.1. What Is Agent Trusted Registration?
 
@@ -612,7 +614,7 @@ curl -X 'POST' \
   -H 'Content-Type: application/json' \
   -d '{
   "type": "explicit",
-  "query": "我想去旅游",
+  "query": "I want to travel",
   "limit": 5
 }'
 ```
@@ -623,6 +625,6 @@ The discovery process implementation can be referenced in `demo-leader`.
 
 ## 4. Next Step: Observability (AMP)
 
-AIP addresses "how agents collaborate"; if you also need the collaboration process to be queryable (access logs, heartbeat status, auditing, etc.), read [Integrating AMP Observability into Agents](./amp-agent-observability.md).  
+AIP addresses "how agents collaborate"; if you also need the collaboration process to be queryable (access logs, heartbeat status, auditing, etc.), read [Integrating AMP Observability into Agents](./amp-agent-observability_en.md).  
 That document only covers how developers implement Emitters and perform queries; it does not cover how to set up the underlying AMP infrastructure.
 

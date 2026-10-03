@@ -1,5 +1,7 @@
 [首页](../README.md)
 
+**[English](oidc-web-app-manual-verification_en.md) | [中文](oidc-web-app-manual-verification.md)**
+
 # OIDC Web 应用手工验证教程
 
 这篇教程说明如何手工验证真人用户的 OIDC 登录能力。它以 `demo-leader + Keycloak` 为示例，但验证思路本身是通用的；如果你在 `registry-server`、`monitor-server` 或其他接入 OIDC 的项目中联调，只需要替换本文中的 URL、realm、client 和测试用户即可。

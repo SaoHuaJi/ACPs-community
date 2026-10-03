@@ -1,5 +1,7 @@
 [首页](../README.md)
 
+**[English](install-package-clean-slate_en.md) | [中文](install-package-clean-slate.md)**
+
 # 验收 / 重装前清场（破坏性）
 
 这篇教程写给：**要在同一批机器上「从零再装一遍」做验收或排障**的人。  

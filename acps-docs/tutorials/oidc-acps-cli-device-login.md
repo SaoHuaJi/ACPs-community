@@ -1,5 +1,7 @@
 [首页](../README.md)
 
+**[English](oidc-acps-cli-device-login_en.md) | [中文](oidc-acps-cli-device-login.md)**
+
 # acps-cli OIDC Device 登录教程
 
 这篇教程说明如何使用 `acps-cli` 在纯命令行场景中完成真人用户 OIDC 登录。它面向常见的 SSH 远程主机场景：CLI 运行在远程终端里，浏览器可以运行在你的本机、跳板机或任意可访问 Keycloak 的设备上。

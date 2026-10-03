@@ -1,5 +1,7 @@
 [首页](../README.md)
 
+**[English](app-release-package-build_en.md) | [中文](app-release-package-build.md)**
+
 # 从源代码构建应用发布包
 
 跟着这篇教程，你可以从 ACPs 源码打出一组 `*-app-release-*.tar.gz`。这些包是后面做 Docker 镜像包、**image / host 安装包**的共用输入；脚本跑通时，每个包都已经做过基本校验。

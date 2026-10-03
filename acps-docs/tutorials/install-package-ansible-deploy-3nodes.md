@@ -1,5 +1,7 @@
 [首页](../README.md)
 
+**[English](install-package-ansible-deploy-3nodes_en.md) | [中文](install-package-ansible-deploy-3nodes.md)**
+
 # 三业务节点部署（Ansible：image / host）
 
 前提：你已按 [用安装包部署 ACPs](./install-package-ansible-deploy.md) 会解包、填 `secrets.yml`、自签 CA、跑 `site.yml` / `business.yml`。本文只讲**怎么把组件分到三台业务机**；Ansible / secrets / CA / 验收命令不重复。装完后的续签 / 升级等见 [日常运维](./install-package-day2-ops.md)。同一批机器要「从零再装」见 [清场教程](./install-package-clean-slate.md)。

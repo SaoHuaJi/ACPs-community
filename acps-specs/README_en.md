@@ -33,15 +33,3 @@ The Agent Collaboration Protocols (ACPs) is a standardized interaction protocol 
 (9) [Agent Monitoring Protocol (AMP) Specification](09-ACPs-spec-AMP/ACPs-spec-AMP_en.md)
 
 (10) [Agent Access Control (AAC) Specification](10-ACPs-spec-AAC/ACPs-spec-AAC_en.md)
-
-## 3. Multilingual Documentation Convention
-
-Each specification in this directory is maintained as a Chinese original plus an English version in the same directory. The English file name adds an `_en` suffix to the Chinese file name, for example `ACPs-spec-AIC.md` and `ACPs-spec-AIC_en.md`.
-
-Both versions provide a language switch at the top of the document (immediately after `[Home](../README_en.md)`):
-
-```markdown
-**[English](ACPs-spec-AIC_en.md) | [中文](ACPs-spec-AIC.md)**
-```
-
-Translation convention: image paths and code blocks stay unchanged (the English and Chinese versions live in the same directory and share the same images); relative links to other specifications in this directory point to the corresponding `_en` version, so English documents always link to English documents and Chinese documents to Chinese documents; section anchors referenced in the body switch to the anchors of the English headings. All 11 documents in this directory have an English version (`README_en.md` plus the `*_en.md` file in each of the `01`–`10` specification directories), covering every specification from 1 to 10.

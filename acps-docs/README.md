@@ -1,5 +1,7 @@
 # ACPs Docs
 
+**[English](README_en.md) | [中文](README.md)**
+
 这个目录是 ACPs 项目的参考文档入口：快速开始、教程、CLI 参考与开发测试说明。
 
 **部署**的基础流程是：装依赖 → 铺配置 → 迁移数据库 → 签发证书 → 按顺序拉起进程 → 探活，逐步命令见[从应用薄包手工部署](tutorials/manual-deploy-from-app-thin-package.md)。`acps-infra` 的**自动化安装层**（`release/install-packaging`）把这套流程自动化，并加上多机编排与幂等升级：应用发布包 →（image）镜像包 → 安装包 → Ansible。概念见 [`acps-infra/README.md`](../acps-infra/README.md)；逐步命令见下方教程。

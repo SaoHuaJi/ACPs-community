@@ -1,5 +1,7 @@
 [首页](../README.md)
 
+**[English](install-package-day2-ops_en.md) | [中文](install-package-day2-ops.md)**
+
 # 安装后日常运维（续签 / trust / 升级 / 回滚）
 
 这篇教程写给：**已经按 [用安装包部署 ACPs](./install-package-ansible-deploy.md) 跑通 `site.yml`（可选再跑 `business.yml`）的人**。  
