@@ -92,7 +92,7 @@ Under the host path the installer can sync passwords for existing PG roles, but 
 
 ---
 
-## 0.1 Confirm the Three Paths First (before deleting anything)
+### 0.1 Confirm the Three Paths First (before deleting anything)
 
 Go by the **actual values in the inventory / `host_vars`**; do not memorize one fixed set of paths.
 
