@@ -18,7 +18,7 @@ For agent interconnection to become a secure and reliable agent system, an impor
 
 Each agent should generate an ACS for itself and register it with an Agent Registration Service Provider (ARSP). The Agent Registration Service Provider may synchronize the ACS registered by the agent, through the Data Synchronization Protocol (DSP), to an Agent Discovery Service Provider (ADSP), which provides it to other agents to support agent capability queries. The process by which an agent registers and obtains an ACS is shown in the figure below.
 
-![3-1.png](3-1.png)
+![3-1_en.png](3-1_en.png)
 
 Note: In addition to obtaining the ACS through the Agent Discovery Service Provider as described above, an agent may also place its own ACS file under its own service access address, supporting direct retrieval by other users in a Well Known manner, for example `https://agent.example.com/.well-known/acs.json`. It should be particularly pointed out, however, that it is an insecure manner for a user to obtain an agent capability description in this way; we rather recommend obtaining the ACS through the Agent Discovery Service Provider to ensure that it is secure and reliable.
 

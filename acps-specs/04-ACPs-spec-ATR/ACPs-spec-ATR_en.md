@@ -26,7 +26,7 @@ As already defined in the AIC standard definition document of the ACPs protocol 
 
 After obtaining an AIC, an agent also needs to obtain an agent identity certificate from a certificate authority service provider (CASP). In agent interconnection, there may be multiple certificate authority service providers, and each provider should be a service entity that has been recognized by consensus (for example, certified by a management authority). The complete trusted registration process is shown in the figure below.
 
-![4-1.png](4-1.png)
+![4-1_en.png](4-1_en.png)
 
 # 3. Definition of the Agent Trusted Registration Process
 
@@ -43,7 +43,7 @@ According to the AIC specification (ACPs-spec-AIC), the entity serial number occ
 
 The detailed process of agent ontology trusted registration is shown in the figure below. For scenarios that require only a single agent, the agent provider can perform integrated ontology and entity registration through the following process and apply for a certificate directly for that entity's AIC; for cases where multiple entities need to be started for the same agent, the provider must separately register its agent ontology according to the following process, and then perform entity registration through the agent entity registration process in 3.3.
 
-![4-2.png](4-2.png)
+![4-2_en.png](4-2_en.png)
 
 The steps shown in the figure are as follows:
 
@@ -77,7 +77,7 @@ The certificate Subject `CN` **MUST** use the AIC. If the certificate contains a
 
 The detailed process of agent entity trusted registration is shown in the figure below.
 
-![4-3.png](4-3.png)
+![4-3_en.png](4-3_en.png)
 
 (1) The agent provider uses the agent ontology certificate obtained in 3.2 to establish a mutual authentication channel (such as mTLS) with the agent registration service provider, and submits an entity registration application; the request contains the ontology AIC and additional information (such as location).
 

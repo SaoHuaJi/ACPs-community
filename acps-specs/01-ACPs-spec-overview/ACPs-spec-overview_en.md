@@ -24,7 +24,7 @@ Starting from the vision that agent interconnection will become critical network
 
 The entities in the Agent Collaboration Protocols (ACPs) and their relationships are shown in the figure below.
 
-![1-1.png](1-1.png)
+![1-1_en.png](1-1_en.png)
 
 The entities in the Agent Collaboration Protocols include the following categories:
 

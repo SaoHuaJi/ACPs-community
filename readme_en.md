@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # AIP Project Overview
 For the complete project repository, please visit: https://github.com/AIP-PUB/ACPs-community
 

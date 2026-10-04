@@ -20,7 +20,7 @@ For agent interconnection to become a secure and reliable agent system, the agen
 
 Agent identity authentication can use a variety of authentication protocols. mTLS with the TLS 1.3 protocol is recommended. The agent that initiates the request is the mTLS client (Agent1 in the figure), and the agent that accepts the request is the mTLS server (Agent2 in the figure). The complete mTLS handshake process is shown in the figure below:
 
-![5-1.png](5-1.png)
+![5-1_en.png](5-1_en.png)
 
 The agent identity authentication process is mainly divided into three steps: key exchange (Key Exchange), server parameters (Server Parameters), and authentication (Authentication). Apart from the key exchange part, all other steps are carried out in encrypted form.
 
@@ -95,7 +95,7 @@ When a user uses an agent (such as a personal assistant), it is recommended to u
 
 The authentication process is shown below:
 
-![5-2.png](5-2.png)
+![5-2_en.png](5-2_en.png)
 
 
 # 5. Supplementary Notes

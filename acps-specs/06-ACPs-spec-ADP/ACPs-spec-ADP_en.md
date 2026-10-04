@@ -23,7 +23,7 @@ For agent interconnection to become a secure and reliable agent system, a standa
 # 3. Role Definitions and Interaction Process in the Agent Discovery Process
 
 The roles and the interaction process involved in the agent discovery process are shown in the figure below.
-![6-1.png](6-1.png)
+![6-1_en.png](6-1_en.png)
 
 The agent discovery process involves the following roles:
 

@@ -50,7 +50,7 @@ This document describes the data synchronization protocol between a data provide
 
 (3) If the connection is unexpectedly interrupted and the interruption lasts a long time, the data consumer should again evaluate the current retention window and service status through the Info API, and re-pull a full or incremental snapshot when necessary, so as to realign the data and ensure that both parties are always synchronized. The overview diagram of the interaction between the data provider and the data consumer is as follows:
 
-![8-1.png](8-1.png)
+![8-1_en.png](8-1_en.png)
 
 ## 3.1 Snapshot Synchronization
 
