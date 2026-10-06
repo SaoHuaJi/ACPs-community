@@ -10,7 +10,7 @@ The tests of `acps-cli` are divided into three layers:
 
 Among them, the monitor-related tests adopt a two-layer complementary approach:
 
-- `tests/integration/test_monitor_cli_live.py`: real monitor-server + direct write read model, used to verify the contract between the CLI and the Query API.
+- `tests/integration/test_monitor_cli_live.py`: real monitor-server + direct-write read-model setup, used to verify the contract between the CLI and the Query API.
 - `tests/e2e/test_monitor_query_workflow.py`: real CLI + real writer chain, used to verify the full Kafka / storage / Query API chain.
 
 Boundary principles:
