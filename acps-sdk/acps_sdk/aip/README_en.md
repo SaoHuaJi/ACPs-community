@@ -19,7 +19,7 @@ acps_sdk/aip/
 ├── aip_group_partner.py    # Group mode Partner-side implementation
 ├── aip_group_auth.py       # Group ACL service client
 ├── aip_group_runtime.py    # Group runtime naming, invitation and AMQP URL utilities
-└── README.md               # This file
+└── README_en.md            # This file
 ```
 
 ## Feature Overview
