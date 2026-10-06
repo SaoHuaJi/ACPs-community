@@ -13,7 +13,7 @@ acps_sdk/adp/
 ├── errors.py        # Error code enums, exception classes and error response building utilities
 ├── models.py        # Pydantic V2 data models (requests, responses, filters, context, etc.)
 ├── validators.py    # Validation utilities (forward chain, fan-out budget, filter conditions, etc.)
-└── README_en.md        # This file
+└── README_en.md     # This file
 ```
 
 ## Feature Overview
