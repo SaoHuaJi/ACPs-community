@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # install-packaging 操作文档索引
 
 > 产品主路径：`acps-image-install-*` / `acps-host-install-*` + Ansible `playbooks/*.yml`。  

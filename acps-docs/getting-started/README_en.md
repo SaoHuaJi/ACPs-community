@@ -1,4 +1,4 @@
-[Home](../README.md)
+[Home](../README_en.md)
 
 **[English](README_en.md) | [中文](README.md)**
 
@@ -6,7 +6,7 @@
 
 This document is the entry point for ACPs, helping you determine which path you should take: local development and testing, or deploying an environment. Deployment is further divided into **manual deployment** (the basic process) and **Ansible installation package deployment** (automation of the same process). The detailed steps for each path have been split into separate documents; this document only retains the roadmap and minimum commands.
 
-See [`acps-infra/README.md`](../../acps-infra/README.md) for an overview of the concepts.
+See [`acps-infra/README_en.md`](../../acps-infra/README_en.md) for an overview of the concepts.
 
 ## 1. First Understand the Types of Work
 

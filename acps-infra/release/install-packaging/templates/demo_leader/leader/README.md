@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # Demo Leader 树模板（ACS / scenario）
 
 - `atr/acs.json`：Leader 自身（多为 AMQP）；安装器注入 advertise + AMQP host。

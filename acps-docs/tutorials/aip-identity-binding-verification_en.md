@@ -1,4 +1,4 @@
-[Home](../README.md)
+[Home](../README_en.md)
 
 **[English](aip-identity-binding-verification_en.md) | [中文](aip-identity-binding-verification.md)**
 

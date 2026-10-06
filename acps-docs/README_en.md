@@ -4,7 +4,7 @@
 
 This directory is the reference documentation entry point for the ACPs project: quick start, tutorials, CLI reference, and development/testing notes.
 
-The **deployment** baseline procedure is: install dependencies → lay down configuration → migrate the database → issue certificates → start processes in order → probe liveness. For the step-by-step commands see [Manual Deployment from an Application Thin Package](tutorials/manual-deploy-from-app-thin-package_en.md). The **automation installation layer** of `acps-infra` (`release/install-packaging`) automates this procedure and adds multi-machine orchestration and idempotent upgrades: application release package → (image) image package → installation package → Ansible. For the concepts see [`acps-infra/README.md`](../acps-infra/README.md); for the step-by-step commands see the tutorials below.
+The **deployment** baseline procedure is: install dependencies → lay down configuration → migrate the database → issue certificates → start processes in order → probe liveness. For the step-by-step commands see [Manual Deployment from an Application Thin Package](tutorials/manual-deploy-from-app-thin-package_en.md). The **automation installation layer** of `acps-infra` (`release/install-packaging`) automates this procedure and adds multi-machine orchestration and idempotent upgrades: application release package → (image) image package → installation package → Ansible. For the concepts see [`acps-infra/README_en.md`](../acps-infra/README_en.md); for the step-by-step commands see the tutorials below.
 
 ## Directory Structure
 
@@ -65,9 +65,9 @@ acps-docs/
 
 | Document | Link |
 | -- | --- |
-| ACPs SDK Agent Identity Code (AIC) | [SDK: AIC DOC](../acps-sdk/acps_sdk/aip/README.md) |
-| ACPs SDK Agent Capability Specification (ACS) | [SDK: ACS DOC](../acps-sdk/acps_sdk/acs/README.md) |
-| ACPs SDK Agent Discovery Protocol (ADP) | [SDK: ADP DOC](../acps-sdk/acps_sdk/adp/README.md) |
+| ACPs SDK Agent Identity Code (AIC) | [SDK: AIC DOC](../acps-sdk/acps_sdk/aip/README_en.md) |
+| ACPs SDK Agent Capability Specification (ACS) | [SDK: ACS DOC](../acps-sdk/acps_sdk/acs/README_en.md) |
+| ACPs SDK Agent Discovery Protocol (ADP) | [SDK: ADP DOC](../acps-sdk/acps_sdk/adp/README_en.md) |
 | ACPs Agent Interaction Protocol (AIP) SDK development guide | [tutorials/aip-sdk-tutorial_en.md](tutorials/aip-sdk-tutorial_en.md) |
 | How AIP communication prevents identity forgery | [tutorials/aip-identity-binding-verification_en.md](tutorials/aip-identity-binding-verification_en.md) |
 
@@ -87,5 +87,5 @@ acps-docs/
 12. Multiple machines → [install-package-ansible-deploy-3nodes_en.md](tutorials/install-package-ansible-deploy-3nodes_en.md) or `hosts-multi.example.yml` inside the package
 13. To "install from scratch again" on the same batch of machines → [install-package-clean-slate_en.md](tutorials/install-package-clean-slate_en.md), then run `site.yml`
 14. Day-2 operations (renewal / trust / upgrade / rollback) → [install-package-day2-ops_en.md](tutorials/install-package-day2-ops_en.md)
-15. Concepts overview → [`acps-infra/README.md`](../acps-infra/README.md)
+15. Concepts overview → [`acps-infra/README_en.md`](../acps-infra/README_en.md)
 16. SDK → the SDK / AIP tutorials in the tables above

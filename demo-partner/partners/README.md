@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # 通用 Partner Agent 框架
 
 本目录实现了一个通用的 Partner Agent 框架，采用 **"通用运行时 + 配置驱动"** 的架构。新增一个 Agent 只需编写 Prompt 和 JSON 配置文件，无需编写 Python 代码。所有 AIP 协议交互、状态机流转和异常处理都由通用框架统一维护。

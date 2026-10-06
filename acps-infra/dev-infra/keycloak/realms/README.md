@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # Keycloak Realm Imports
 
 本目录提供 `dev-infra` Keycloak 使用的 3 个 realm import 模板：

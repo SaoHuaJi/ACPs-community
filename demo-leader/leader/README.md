@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # Leader Agent Platform
 
 Leader Agent Platform 是一个基于 **"通用底座 + 场景插件"** 设计理念的智能体协作平台。它作为核心协调者（Leader），负责接收用户请求、动态加载场景配置、编排多个 Partner Agent 协同工作，并最终整合结果交付给用户。通信遵循 AIP（智能体交互协议），支持 Direct RPC 和 Group（消息队列）两种模式。

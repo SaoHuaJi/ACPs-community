@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # ACPs install-packaging
 
 本树是 ACPs **安装层**源码：消费 `image-packaging` / 应用发布包 / 厂商包制品，用 Ansible 完成 **image-mode**（Docker Compose）与 **host-mode**（venv/systemd + OS 包 + vendor tarball）首装与运维。

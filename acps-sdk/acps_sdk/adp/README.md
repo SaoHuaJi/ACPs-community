@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # ADP (Agent Discovery Protocol) SDK 模块
 
 本模块实现了 ACPs 协议体系中 ADP（智能体发现协议）的共用功能代码，基于 ACPs-spec-ADP 协议规范。

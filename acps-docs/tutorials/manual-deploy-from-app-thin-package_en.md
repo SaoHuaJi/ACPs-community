@@ -1,4 +1,4 @@
-[Home](../README.md)
+[Home](../README_en.md)
 
 **[English](manual-deploy-from-app-thin-package_en.md) | [中文](manual-deploy-from-app-thin-package.md)**
 

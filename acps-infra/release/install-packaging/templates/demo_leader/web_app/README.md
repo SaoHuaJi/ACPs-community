@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # Web App 前端
 
 本目录是 Demo 应用的前端 Web 界面，使用原生 JavaScript 实现，提供与 Leader Agent 的交互界面。

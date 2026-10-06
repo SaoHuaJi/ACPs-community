@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # AIP SDK — 智能体交互协议 (Agent Interaction Protocol) v2
 
 AIP SDK 提供 AIP v2 协议的 Python 实现，覆盖任务命令/结果模型、JSON-RPC 交互、群组模式的 RabbitMQ 协作，以及流式与 mTLS 场景下的客户端/服务端辅助能力。

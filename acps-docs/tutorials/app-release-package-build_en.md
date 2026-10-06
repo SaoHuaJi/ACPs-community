@@ -1,4 +1,4 @@
-[Home](../README.md)
+[Home](../README_en.md)
 
 **[English](app-release-package-build_en.md) | [中文](app-release-package-build.md)**
 

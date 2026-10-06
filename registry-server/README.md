@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # registry-server
 
 registry-server 是 ACPs 的 Agent 注册中心，负责 Agent 注册、审核、ATR / EAB 相关能力，以及 DSP

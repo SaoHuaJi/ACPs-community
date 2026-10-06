@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # dev-infra
 
 `dev-infra` 是 ACPs 多项目共享的本地开发依赖集合。日常开发通过 [dev-infra.sh](./dev-infra.sh) 管理底层 [compose.yml](./compose.yml) 中的服务，而不是直接手写 `docker compose` 命令。

@@ -1,4 +1,4 @@
-[Home](../README.md)
+[Home](../README_en.md)
 
 **[English](install-package-ansible-deploy-3nodes_en.md) | [中文](install-package-ansible-deploy-3nodes.md)**
 
@@ -171,7 +171,7 @@ The commands are the same as for a single machine; orchestration across machines
 | Leader reports `All connection attempts failed` when connecting to Partner / ACS is still `localhost:902x` | The installer should already have rewritten the ACS; check whether the biz-2 Partner ACS and the Leader `scenario/expert` are `https://<biz-2 advertise>:902x`; see §7 |
 | Partner reports `UNKNOWN_CA` when connecting to RabbitMQ after CA `--force` | Run `renew-certs.yml` first, then recreate/restart; see §7 |
 
-For the single-machine procedure, the differences between the two modes, and business acceptance A–D, go back to [install-package-ansible-deploy.md](./install-package-ansible-deploy_en.md).  
+For the single-machine procedure, the differences between the two modes, and business acceptance A–D, go back to [install-package-ansible-deploy_en.md](./install-package-ansible-deploy_en.md).  
 To install from scratch again on the same set of machines: [Clean-Slate Tutorial](./install-package-clean-slate_en.md).
 
 ---

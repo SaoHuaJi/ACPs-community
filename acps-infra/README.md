@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # acps-infra
 
 ACPs 的基础设施与**产品交付**仓库：本地开发共享依赖（`dev-infra`）、以及统一的**打包 / 安装 / 升级 / 回滚**（`release/install-packaging`）。

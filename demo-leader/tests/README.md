@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # Leader Agent Platform 测试套件
 
 ## 测试分类

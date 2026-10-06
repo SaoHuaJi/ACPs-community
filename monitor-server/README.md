@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # monitor-server
 
 monitor-server 是 ACPs 的监控服务，负责 AMP（Agent Monitoring Protocol）监控日志的收集、入库与查询。

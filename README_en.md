@@ -1,7 +1,6 @@
 **[English](README_en.md) | [中文](README.md)**
 
 # AIP Project Overview
-For the complete project repository, please visit: https://github.com/AIP-PUB/ACPs-community
 
 ## 1. Project Introduction
 This project is part of the open-source ecosystem for agent interconnection. Led by Beijing University of Posts and Telecommunications (BUPT) and developed with the support of the China Electronics Standardization Institute (CESI), the project released version v1.0.0 in November 2025.
@@ -33,10 +32,10 @@ To systematically address these challenges, guide and standardize the developmen
 
 GB/Z 185 Artificial Intelligence — Agent Interconnection was officially published on May 22, 2026. This project provides protocol references and code implementations based on GB/Z 185 Artificial Intelligence — Agent Interconnection.
 
-3## . Agent Collaboration Protocols
+## 3. Agent Collaboration Protocols
 The Agent Collaboration Protocols (ACPs) is a standardized interaction protocol suite designed and implemented based on AIP to enable efficient collaboration among heterogeneous agents and support diverse agent interconnection applications.
 
-For detailed specifications, please refer to the ACPs protocol specification: ACPs-community/acps-specs.
+For detailed specifications, please refer to the ACPs protocol specification: [acps-specs](acps-specs/README_en.md).
 
 ## 4. Supporting Open-Source Implementations
 This project also provides open-source reference implementations for the Agent Collaboration Protocols, including:
@@ -161,22 +160,22 @@ Released v2.1.0.
 ## 6. Getting Started
 To help developers get started quickly, we provide two detailed guides. Developers can refer to the appropriate guide according to their development needs:
 
-- [GettingStarted](https://github.com/AIP-PUB/ACPs-community/blob/main/acps-docs/getting-started/README_en.md)
+- [GettingStarted](acps-docs/getting-started/README_en.md)
 Agent Platform Development Guide — intended for developers building agent interconnection platforms and integrating the ACPs protocol. It guides developers through platform-level development and configuration.
 
-- [Tutorials](https://github.com/AIP-PUB/ACPs-community/blob/main/acps-docs/tutorials/agent-development.md)
+- [Tutorials](acps-docs/tutorials/agent-development_en.md)
 Agent Integration Tutorials — provide guidance on connecting individual agents to ACPs, helping developers build agents compliant with the ACPs specifications and quickly integrate them with the ACPs ecosystem.
 
 ## 7. More Documentation
-> See [`ACPs-community/acps-docs`](https://github.com/AIP-PUB/ACPs-community/tree/main/acps-docs)
+> See `acps-docs`
 
 ## 8. Demos
 To help users quickly understand agent interconnection, we provide agent interconnection examples based on a Beijing travel scenario. The demos demonstrate how multiple agents can collaborate to complete a comprehensive travel planning task covering attractions, dining, accommodation, transportation, and other aspects of a trip to Beijing.
 
-- Leader agent example: See `ACPs-community/demo-leader`
+- Leader agent example: See `demo-leader`
 The leader agent assists with tasks, interacts with users, and coordinates multi-agent task collaboration based on the ACPs protocol.
 
-- Partner agent examples: See `ACPs-community/demo-partner`
+- Partner agent examples: See `demo-partner`
 This includes five specialized agents responsible for Beijing urban attractions, Beijing suburban attractions, Beijing food recommendations, nationwide hotel arrangements, and nationwide transportation arrangements. Under the coordination of the leader agent, these five specialized agents collaborate through the ACPs protocol to complete a comprehensive Beijing travel itinerary planning and recommendation task.
 
 ## 9. Additional Notes

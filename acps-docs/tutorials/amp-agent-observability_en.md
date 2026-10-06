@@ -1,4 +1,4 @@
-[Home](../README.md)
+[Home](../README_en.md)
 
 **[English](amp-agent-observability_en.md) | [中文](amp-agent-observability.md)**
 

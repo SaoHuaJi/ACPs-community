@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # demo-partner
 
 demo-partner 是 ACPs 的 Partner Agent 示例应用，以多 Agent 方式运行，每个 Agent 暴露独立端口，

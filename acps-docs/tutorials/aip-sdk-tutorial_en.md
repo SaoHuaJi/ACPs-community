@@ -1,4 +1,4 @@
-[Home](../README.md)
+[Home](../README_en.md)
 
 **[English](aip-sdk-tutorial_en.md) | [中文](aip-sdk-tutorial.md)**
 
@@ -10,7 +10,7 @@ This tutorial explains how to use `acps_sdk.aip` to develop AIP (Agent Interacti
 - Grouping RabbitMQ mode
 
 
-> Reference specification: [ACPs-spec-AIP.md](../../acps-specs/07-ACPs-spec-AIP/ACPs-spec-AIP_en.md)
+> Reference specification: [ACPs-spec-AIP_en.md](../../acps-specs/07-ACPs-spec-AIP/ACPs-spec-AIP_en.md)
 
 ---
 

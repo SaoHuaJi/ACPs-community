@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # mq-auth-server 测试说明
 
 ## 目录结构

@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # demo-leader
 
 demo-leader 是 ACPs 的 Leader Agent 示例应用，负责接收用户输入、编排 Partner Agents、聚合结果，

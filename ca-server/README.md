@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # ca-server
 
 ca-server 是 ACPs 的证书服务，负责 ATR 场景下的证书申请、签发、吊销与查询。本文说明项目定位与日常开发；全栈打包与部署见第 3 章。

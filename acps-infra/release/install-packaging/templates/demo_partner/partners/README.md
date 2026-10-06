@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # Demo Partner ACS 模板
 
 `*/acs.json` 中的 `https://localhost:902x` / `amqps://rabbitmq:5671` 是**待安装器改写的占位**：

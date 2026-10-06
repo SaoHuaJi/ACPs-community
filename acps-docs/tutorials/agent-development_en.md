@@ -1,4 +1,4 @@
-[Home](../README.md)
+[Home](../README_en.md)
 
 **[English](agent-development_en.md) | [中文](agent-development.md)**
 
@@ -6,7 +6,7 @@
 
 This document is intended for developers who want to develop Leader / Partner agents based on ACPs. It only covers the AIP interaction model and code structure, and does not repeat the content on setting up the development environment, packaging, or deployment.
 
-For environment preparation, please see [Quick Start](../getting-started/README.md) and [Development and Testing Overview](../development/development-testing-overview_en.md).
+For environment preparation, please see [Quick Start](../getting-started/README_en.md) and [Development and Testing Overview](../development/development-testing-overview_en.md).
 
 ## Table of Contents
 
@@ -488,7 +488,7 @@ If you modify demo code, prioritize running the `demo-partner` unit and integrat
 
 ## 1.9. What to Read Next
 
-- For detailed AIP SDK references, read [tutorials/aip-sdk-tutorial.md](./aip-sdk-tutorial_en.md).
+- For detailed AIP SDK references, read [./aip-sdk-tutorial_en.md](./aip-sdk-tutorial_en.md).
 - To understand AIP data objects, read [acps-sdk/acps_sdk/aip/aip_base_model.py](../../acps-sdk/acps_sdk/aip/aip_base_model.py).
 - To understand minimal Partner RPC bindings, read [acps-sdk/acps_sdk/aip/aip_rpc_server.py](../../acps-sdk/acps_sdk/aip/aip_rpc_server.py).
 - To understand minimal Leader RPC calls, read [acps-sdk/acps_sdk/aip/aip_rpc_client.py](../../acps-sdk/acps_sdk/aip/aip_rpc_client.py).
@@ -506,12 +506,12 @@ While reading this chapter, you can refer to the following resources for details
 
 | Keyword | Full Name | Abbreviation | Reference Document | Service / SDK Description |
 |----|----|----|----|----|
-| Agent Identity Code | Agent Identity Code | AIC | [ACPs-spec-AIC.md](../../acps-specs/02-ACPs-spec-AIC/ACPs-spec-AIC_en.md) | [acps-sdk:aic](../../acps-sdk/acps_sdk/aic/README.md) |
-| Agent Capability Specification | Agent Capability Specification | ACS | [ACPs-spec-ACS.md](../../acps-specs/03-ACPs-spec-ACS/ACPs-spec-ACS_en.md) | [acps-sdk:acs](../../acps-sdk/acps_sdk/acs/README.md) |
-| Agent Trusted Registration | Agent Trusted Registration | ATR | [ACPs-spec-ATR.md](../../acps-specs/04-ACPs-spec-ATR/ACPs-spec-ATR_en.md) | [registry-server](../../registry-server/README.md) |
-| Certificate of Agent Identity | Certificate of Agent Identity | CAI | [ACPs-spec-ATR.md](../../acps-specs/04-ACPs-spec-ATR/ACPs-spec-ATR_en.md) | [ca-server](../../ca-server/README.md) |
+| Agent Identity Code | Agent Identity Code | AIC | [ACPs-spec-AIC_en.md](../../acps-specs/02-ACPs-spec-AIC/ACPs-spec-AIC_en.md) | [acps-sdk:aic](../../acps-sdk/acps_sdk/aic/README_en.md) |
+| Agent Capability Specification | Agent Capability Specification | ACS | [ACPs-spec-ACS_en.md](../../acps-specs/03-ACPs-spec-ACS/ACPs-spec-ACS_en.md) | [acps-sdk:acs](../../acps-sdk/acps_sdk/acs/README_en.md) |
+| Agent Trusted Registration | Agent Trusted Registration | ATR | [ACPs-spec-ATR_en.md](../../acps-specs/04-ACPs-spec-ATR/ACPs-spec-ATR_en.md) | [registry-server](../../registry-server/README_en.md) |
+| Certificate of Agent Identity | Certificate of Agent Identity | CAI | [ACPs-spec-ATR_en.md](../../acps-specs/04-ACPs-spec-ATR/ACPs-spec-ATR_en.md) | [ca-server](../../ca-server/README_en.md) |
 
-> Note: The Discovery Service (`discovery-server`) automatically obtains agent ACS information from the Registration Service (`registry-server`). For details about this process, refer to [ACPs-spec-DSP.md](../../acps-specs/08-ACPs-spec-DSP/ACPs-spec-DSP_en.md).
+> Note: The Discovery Service (`discovery-server`) automatically obtains agent ACS information from the Registration Service (`registry-server`). For details about this process, refer to [ACPs-spec-DSP_en.md](../../acps-specs/08-ACPs-spec-DSP/ACPs-spec-DSP_en.md).
 
 ## 2.1. What Is Agent Trusted Registration?
 

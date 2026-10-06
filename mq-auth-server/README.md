@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # mq-auth-server
 
 mq-auth-server 是 ACPs 的 RabbitMQ 鉴权与群组 ACL 服务，负责为 RabbitMQ 提供 HTTP auth backend，

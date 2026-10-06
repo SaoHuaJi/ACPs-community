@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # ACS SDK — 智能体能力描述模型
 
 ACS（Agent Capability Specification）模块提供基于 **ACPs-spec-ACS-v02.02** 规范的 Python 数据模型，使用 Pydantic V2 实现类型验证与序列化。

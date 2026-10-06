@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # ACPs 智能体身份码 (AIC) 工具模块
 
 基于 **ACPs-spec-AIC-v02.02** 规范实现的 AIC 验证与解析工具。

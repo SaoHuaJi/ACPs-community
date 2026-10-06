@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # discovery-server
 
 discovery-server 是 ACPs 的发现服务，负责接收自然语言请求、维护本地索引，并基于 DSP 同步结果返回

@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # ACPs release 打包层
 
 新打包部署方案落在本目录（`app-packaging` / `image-packaging` / `install-packaging`）。

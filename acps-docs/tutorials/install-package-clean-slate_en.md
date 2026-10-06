@@ -1,4 +1,4 @@
-[Home](../README.md)
+[Home](../README_en.md)
 
 **[English](install-package-clean-slate_en.md) | [中文](install-package-clean-slate.md)**
 

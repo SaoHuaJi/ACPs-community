@@ -1,3 +1,5 @@
+**[English](README_en.md) | [中文](README.md)**
+
 # acps-cli
 
 `acps-cli` 是 ACPs 的统一命令行工具集，提供 Registry、CA、Discovery、MQ、Monitor 五类客户端能力，面向开发联调、调试验证、安装层 provision 引导和日常运维脚本使用。
