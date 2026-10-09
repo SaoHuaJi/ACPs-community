@@ -11,7 +11,7 @@ demo-partner, Fluent Bit, ClickHouse). This document only covers the verificatio
 # 1. amp.access must be LogAppendTime, partition count ≥ 4
 docker exec dev-redpanda rpk topic describe amp.access -c | grep timestamp.type
 docker exec dev-redpanda rpk topic describe amp.access -p
-# Expected: LogAppendTime; PARTITION row count ≥ 4 (when there is only 1 partition, run `just infra up kafka` from §3.1 of dev-runbook.md)
+# Expected: LogAppendTime; PARTITION row count ≥ 4 (when there is only 1 partition, run `just infra up kafka` from §3.1 of dev-runbook_en.md)
 
 # 2. Fluent Bit must contain the kafka.3 worker (access OUTPUT)
 # After startup/restart, stdout should show: [output:kafka:kafka.3] worker #0 started
@@ -77,7 +77,7 @@ User → demo-leader /api/v1/submit (no emission, O-A1)
 
 ### 2.1 Triggering a Business Request (Recommended)
 
-The following commands must be run from the **`acps/` repository root** (consistent with `dev-runbook.md` §3.5 Fluent Bit).
+The following commands must be run from the **`acps/` repository root** (consistent with `dev-runbook_en.md` §3.5 Fluent Bit).
 
 **Recommended (bilateral `/rpc` instrumentation)**: use a hotel-type request that hits only the **RPC Partner** (`streaming=false`, such as `china_hotel`), so that the planner does not also select `china_transport` (`streaming=true`) and go through `/stream` — the current design emits Access only in `AipRpcClient` (`/rpc`) and partner `/rpc`, and the **`/stream` path does not emit**.
 
