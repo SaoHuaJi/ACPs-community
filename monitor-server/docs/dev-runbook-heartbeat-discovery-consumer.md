@@ -1,3 +1,5 @@
+**[English](dev-runbook-heartbeat-discovery-consumer_en.md) | [中文](dev-runbook-heartbeat-discovery-consumer.md)**
+
 # 开发模式联合验证：discovery-server 作为 Heartbeat Sync API Consumer
 
 **前置**：请先按 [dev-runbook-heartbeat.md](./dev-runbook-heartbeat.md) 将 monitor-server
