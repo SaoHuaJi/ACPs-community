@@ -22,7 +22,7 @@ demo-leader must have **group mode** enabled. This document only covers verifica
 # 1. amp.message must be LogAppendTime, with ≥ 4 partitions
 docker exec dev-redpanda rpk topic describe amp.message -c | grep -E 'timestamp.type|partition'
 docker exec dev-redpanda rpk topic describe amp.message -p
-# Expected: LogAppendTime; number of PARTITION lines ≥ 4 (when there is only 1 partition, run just infra up kafka from §3.1 of dev-runbook.md)
+# Expected: LogAppendTime; number of PARTITION lines ≥ 4 (when there is only 1 partition, run just infra up kafka from §3.1 of dev-runbook_en.md)
 
 # 2. Fluent Bit must include the kafka.4 worker (message OUTPUT)
 # After startup/restart, stdout should show: [output:kafka:kafka.4] worker #0 started
