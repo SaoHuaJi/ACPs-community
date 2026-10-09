@@ -171,7 +171,7 @@ EOF
 ```bash
 docker exec dev-redpanda rpk topic describe amp.metrics -c | grep -i timestamp
 # Expect: message.timestamp.type  LogAppendTime
-```
+
 # HIGH-WATERMARK should increase as metrics logs are written
 docker exec dev-redpanda rpk topic describe amp.metrics -p
 # Expect: HIGH-WATERMARK > 0 and increasing
