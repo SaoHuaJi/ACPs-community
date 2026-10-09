@@ -171,7 +171,7 @@ EOF
 ```bash
 docker exec dev-redpanda rpk topic describe amp.metrics -c | grep -i timestamp
 # 期望：message.timestamp.type  LogAppendTime
-```
+
 # HIGH-WATERMARK 应随指标日志写入递增
 docker exec dev-redpanda rpk topic describe amp.metrics -p
 # 期望：HIGH-WATERMARK > 0 且递增中
