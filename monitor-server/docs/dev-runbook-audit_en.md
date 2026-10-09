@@ -226,7 +226,7 @@ waits for Fluent Bit + AuditWriter propagation, then asserts via `traceId` that 
 record count is ≥ 2.
 
 ```bash
-# Any current directory works (the script resolves the acps/ root automatically); see dev-runbook.md §1.2
+# Any current directory works (the script resolves the acps/ root automatically); see dev-runbook_en.md §1.2
 bash monitor-server/scripts/demo_audit.sh
 ```
 
