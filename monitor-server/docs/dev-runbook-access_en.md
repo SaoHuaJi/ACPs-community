@@ -34,7 +34,7 @@ Compared with the Heartbeat / Metrics pipelines, Access has three fundamental di
 On a first read, we suggest using the [Chapter 4 quick scripts](#4-quick-verification-scripts) to confirm the end-to-end path,
 then following [Chapters 2–3](#2-generating-access-data) to run the full demo → Fluent Bit → Kafka → Writer → ClickHouse → API pipeline.
 
-## 1. Link Overview
+## 1. Pipeline Overview
 
 ### 1.1 Data Flow and Ports
 
