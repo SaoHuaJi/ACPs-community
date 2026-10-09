@@ -314,7 +314,7 @@ The Query API returns `503` by design when the Redis connection is abnormal, and
 
 See the general troubleshooting in [dev-runbook_en.md §5](./dev-runbook_en.md), plus the Heartbeat-specific items:
 
-1. **`-d` daemon mode was used on macOS**: switch to running in the foreground (see `dev-runbook.md §3.5`).
+1. **`-d` daemon mode was used on macOS**: switch to running in the foreground (see `dev-runbook_en.md §3.5`).
 2. Check the heartbeat OUTPUT worker: the standard output should show `[output:kafka:kafka.1] worker #0 started`.
 3. Confirm the configuration contains the heartbeat section (INPUT tag=`amp.heartbeat` + OUTPUT match=`amp.heartbeat` + `Workers 1`).
 4. Confirm the heartbeat file path is correct (absolute path): `ls demo-leader/logs/amp_heartbeat.jsonl`.
